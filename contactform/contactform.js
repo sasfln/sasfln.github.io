@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
         }
         $.ajax({
             type: "POST",
-            url: "https://formspree.io/umbelino.rafael@gmail.com",
+            url: "https://usebasin.com/f/abc2dd40006e",
             data: str,
             success: function(msg) {
                 // alert(msg);

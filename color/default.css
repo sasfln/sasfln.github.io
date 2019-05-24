@@ -7,38 +7,38 @@ a:hover {
 /* Back to top button */
 
 .back-to-top {
-    background: #ff9100;
+    background: rgb(0, 0, 110);
     color: #fff;
 }
 
 .back-to-top:focus {
-    background: #ff9100;
+    background: rgb(0, 0, 110);
     color: #fff;
 }
 
 .back-to-top:hover {
-    background: #ff6600;
+    background: #ff9100;
     color: #fff;
 }
 
 .navbar-default {
-    background: #ff9100;
+    background: rgb(0, 0, 110);
 }
 
 .form-control:focus {
-    border-color: #ff9100;
+    border-color: rgb(0, 0, 110);
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #00c1c1;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 2px #00c1c1;
 }
 
 .service .carousel-indicators .active {
-    background: #ff9100;
+    background: rgb(0, 0, 110);
 }
 
 .btn-theme {
-    background: #ff9100;
+    background: rgb(0, 0, 110)0;
 }
 
 .contact-widget i {
-    color: #ff9100;
+    color: rgb(0, 0, 110);
 }

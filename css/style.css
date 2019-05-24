@@ -438,11 +438,12 @@ Intro
     color: #fff;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #00c1c1;
+    border: 2px solid #fff;
 }
 
 #intro .btn-get-started:hover {
-    background: #00c1c1;
+    border: 2px solid #fff;
+    background: rgb(0, 0, 110);
     color: #fff;
     text-decoration: none;
 }
@@ -871,7 +872,7 @@ Footer
 ================================= */
 
 footer {
-    background: #00c1c1;
+    background: rgb(0, 0, 110);
     color: #fff;
     padding: 50px 0 30px;
 }

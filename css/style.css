@@ -826,14 +826,14 @@ Contact
 
 
 /* ================================
-Clients
+Technologies
 ================================= */
 
-ul.clients {
+ul.technologies {
     list-style: none;
 }
 
-ul.clients li {
+ul.technologies li {
     display: inline;
 }
 

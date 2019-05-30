@@ -292,7 +292,8 @@ Parallax
 }
 
 #parallax2 {
-    background-image: url(../img/parallax/2.jpg);
+    /*    background-image: url(../img/parallax/2.jpg); */
+    background-color: #FFF;
 }
 
 
@@ -835,6 +836,8 @@ ul.technologies {
 
 ul.technologies li {
     display: inline;
+    margin: auto;
+    max-width: 300px;
 }
 
 

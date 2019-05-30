@@ -1,3 +1,4 @@
+											DONE
 Intro:
 	SAS
 	Suporte Técnico
@@ -7,14 +8,14 @@ Intro:
 	Redes
 
 Sobre:
-	sobre a SAS			- logo
-	trabalhamos com seus recursos	- pessoas conversando com PC em vista
+	sobre a SAS			- logo						done	
+	trabalhamos com seus recursos	- pessoas conversando com PC em vista		done
 
 Serviços:
-	criação de sites		- código\site
-	identidade de negócio		- blueprint\logo
-	suporte técnico			- alguém consertando PC
-	redes E SERVIDORES		- alguém mexendo num switch \ um servidor
+	criação de sites		- código\site					done
+	identidade de negócio		- blueprint\logo				done
+	suporte técnico			- alguém consertando PC				done
+	redes E SERVIDORES		- alguém mexendo num switch \ um servidor	done
 
 Time:
 	Rafael

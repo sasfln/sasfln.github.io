@@ -62,7 +62,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    color: #3a3a3a;
+    color: #fff;
     font-weight: 700;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
@@ -93,7 +93,7 @@ button {
 }
 
 button.navbar-toggle {
-    background: #00004b;
+    background: #ffaf00;
     border: none;
     color: #fff;
 }

@@ -93,7 +93,7 @@ button {
 }
 
 button.navbar-toggle {
-    background: #2b2b2b;
+    background: #00004b;
     border: none;
     color: #fff;
 }
@@ -199,7 +199,7 @@ nav.navbar.fixed-to-top {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #3A3A3A;
+    color: #000064;
     cursor: pointer;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
@@ -289,10 +289,17 @@ Parallax
 
 #parallax1 {
     background-image: url(../img/parallax/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #parallax2 {
     background-color: #FFF;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -443,7 +450,7 @@ Intro
 
 #intro .btn-get-started:hover {
     border: 2px solid #fff;
-    background: rgb(0, 0, 110);
+    background: #000064;
     color: #fff;
     text-decoration: none;
 }
@@ -874,7 +881,7 @@ Footer
 ================================= */
 
 footer {
-    background: rgb(0, 0, 110);
+    background: #00004b;
     color: #fff;
     padding: 50px 0 30px;
 }

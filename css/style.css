@@ -32,6 +32,7 @@ h1 {
 }
 
 h2 {
+    font-family: 'nasa21regular';
     font-size: 32px;
 }
 
@@ -184,7 +185,8 @@ nav.navbar.fixed-to-top {
     top: 0px;
 }
 
-.navbar-default {
+.navbar-default .navbar-default:hover .navbar-default:active .navbar-default:focus {
+    color: #fff;
     border: none;
     border-bottom: none;
     opacity: 1;
@@ -665,7 +667,7 @@ Works
 
 .og-close:hover::before,
 .og-close:hover::after {
-    background: #333;
+    background: #fff;
 }
 
 .og-fullimg,

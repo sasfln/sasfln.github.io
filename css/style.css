@@ -10,6 +10,7 @@
 Imports
 ================================= */
 
+@import url('font-nasa21.css');
 @import url('font-awesome.min.css');
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
@@ -199,7 +200,7 @@ nav.navbar.fixed-to-top {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #000064;
+    color: #ffaf00;
     cursor: pointer;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
@@ -215,6 +216,7 @@ nav.navbar.fixed-to-top {
 .navbar-default .navbar-brand {
     color: #fff;
     text-transform: uppercase;
+    font-family: 'nasa21regular';
     font-weight: 700;
     font-size: 2em;
 }
@@ -868,7 +870,7 @@ ul.social-network li {
 }
 
 ul.social-network li a:hover span .fa-circle {
-    color: #2b2b2b;
+    color: #ffaf00;
 }
 
 ul.social-network li a i {

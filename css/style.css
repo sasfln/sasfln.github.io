@@ -177,6 +177,7 @@ nav.navbar {
     width: 100%;
     border-radius: 0px;
     transition: all 0.2s;
+    z-index: 9999;
 }
 
 .navbar-nav {
@@ -194,7 +195,6 @@ nav.navbar.fixed-to-top {
     border-bottom: none;
     opacity: 1;
     display: none;
-    z-index: 9999;
 }
 
 .navbar-default .navbar-nav>li>a {

@@ -173,7 +173,7 @@ nav.navbar {
     position: fixed;
     top: -72px;
     margin-bottom: 0px;
-    padding: 10px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
     width: 100%;
     border-radius: 0px;
     transition: all 0.2s;
@@ -302,6 +302,11 @@ Parallax
 
 #parallax2 {
     background-color: #FFF;
+}
+
+#parallax3 {
+    background-image: url(../img/parallax/3.jpg);
+    background-repeat: no-repeat;
 }
 
 .vertical-align {

@@ -856,7 +856,7 @@ ul.technologies {
 ul.technologies li {
     display: inline;
     margin: auto;
-    max-width: 300px;
+    max-width: 480px;
 }
 
 

@@ -392,6 +392,7 @@ Intro
 
 #intro .carousel-inner .item {
     margin: 0 auto;
+    width: 100%;
     transition-property: opacity;
     background-position: center top;
 }

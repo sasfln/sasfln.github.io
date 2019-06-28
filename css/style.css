@@ -861,6 +861,21 @@ ul.technologies li {
 
 
 /* ================================
+Flowchart
+================================= */
+
+ul.flowchart {
+    list-style: none;
+}
+
+ul.flowchart li {
+    display: inline;
+    margin: auto;
+    max-width: 480px;
+}
+
+
+/* ================================
 Bottom widget
 ================================= */
 

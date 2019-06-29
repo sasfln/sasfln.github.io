@@ -345,7 +345,7 @@ Intro
     bottom: 0;
 }
 
-#intro .carousel-container {
+#intro .container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -396,7 +396,7 @@ Intro
     display: block;
     object-fit: contain;
     transition-property: opacity;
-    background-position: center top;
+    background-position: center left;
 }
 
 #intro .carousel-inner .item,

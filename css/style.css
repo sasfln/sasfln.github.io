@@ -10,7 +10,6 @@
 Imports
 ================================= */
 
-@import url('font-nasa21.css');
 @import url('font-awesome.min.css');
 @import url('simpletextrotator.css');
 @import url('overwrite.css');
@@ -32,7 +31,6 @@ h1 {
 }
 
 h2 {
-    font-family: 'nasa21regular';
     font-size: 32px;
 }
 
@@ -53,23 +51,21 @@ h6 {
 }
 
 h1,
+h2,
 h3,
 h4,
 h5,
 h6,
 .h1,
+.h2,
 .h3,
 .h4,
 .h5,
 .h6 {
-    color: #fff;
+    color: #3a3a3a;
     font-weight: 700;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.h2 {
-    font-family: 'nasa21regular';
 }
 
 .lead {
@@ -97,7 +93,7 @@ button {
 }
 
 button.navbar-toggle {
-    background: #ffaf00;
+    background: #2b2b2b;
     border: none;
     color: #fff;
 }
@@ -173,11 +169,10 @@ nav.navbar {
     position: fixed;
     top: -72px;
     margin-bottom: 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     width: 100%;
     border-radius: 0px;
     transition: all 0.2s;
-    z-index: 9999;
 }
 
 .navbar-nav {
@@ -188,13 +183,12 @@ nav.navbar.fixed-to-top {
     top: 0px;
 }
 
-.navbar-default .navbar-default:hover,
-.navbar-default:active .navbar-default:focus {
-    color: #fff;
+.navbar-default {
     border: none;
     border-bottom: none;
     opacity: 1;
     display: none;
+    z-index: 9999;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -205,7 +199,7 @@ nav.navbar.fixed-to-top {
 
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #ffaf00;
+    color: #3A3A3A;
     cursor: pointer;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
@@ -221,7 +215,6 @@ nav.navbar.fixed-to-top {
 .navbar-default .navbar-brand {
     color: #fff;
     text-transform: uppercase;
-    font-family: 'nasa21regular';
     font-weight: 700;
     font-size: 2em;
 }
@@ -296,22 +289,10 @@ Parallax
 
 #parallax1 {
     background-image: url(../img/parallax/1.jpg);
-    /*    background-size: contain; */
-    background-repeat: no-repeat;
 }
 
 #parallax2 {
-    background-color: #FFF;
-}
-
-#parallax3 {
-    background-image: url(../img/parallax/3.jpg);
-    background-repeat: no-repeat;
-}
-
-.vertical-align {
-    display: flex;
-    align-items: center;
+    background-image: url(../img/parallax/2.jpg);
 }
 
 
@@ -345,7 +326,7 @@ Intro
     bottom: 0;
 }
 
-#intro .container {
+#intro .carousel-container {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -457,12 +438,11 @@ Intro
     color: #fff;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #fff;
+    border: 2px solid #00c1c1;
 }
 
 #intro .btn-get-started:hover {
-    border: 2px solid #fff;
-    background: #000064;
+    background: #00c1c1;
     color: #fff;
     text-decoration: none;
 }
@@ -675,7 +655,7 @@ Works
 
 .og-close:hover::before,
 .og-close:hover::after {
-    background: #fff;
+    background: #333;
 }
 
 .og-fullimg,
@@ -845,32 +825,15 @@ Contact
 
 
 /* ================================
-Technologies
+Clients
 ================================= */
 
-ul.technologies {
+ul.clients {
     list-style: none;
 }
 
-ul.technologies li {
+ul.clients li {
     display: inline;
-    margin: auto;
-    max-width: 300px;
-}
-
-
-/* ================================
-Flowchart
-================================= */
-
-ul.flowchart {
-    list-style: none;
-}
-
-ul.flowchart li {
-    display: inline;
-    margin: auto;
-    max-width: 480px;
 }
 
 
@@ -895,7 +858,7 @@ ul.social-network li {
 }
 
 ul.social-network li a:hover span .fa-circle {
-    color: #ffaf00;
+    color: #2b2b2b;
 }
 
 ul.social-network li a i {
@@ -908,10 +871,9 @@ Footer
 ================================= */
 
 footer {
-    background: #00004b;
+    background: #00c1c1;
     color: #fff;
     padding: 50px 0 30px;
-    font-family: 'nasa21regular';
 }
 
 footer a {

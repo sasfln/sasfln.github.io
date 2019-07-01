@@ -367,6 +367,7 @@ Intro
 
 #intro .carousel-content {
     text-align: center;
+    z-index: 9998;
 }
 
 #intro h2 {

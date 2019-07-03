@@ -80,6 +80,8 @@ a:hover {
 .hover-effect {
     position: relative;
     overflow: hidden;
+    -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .hover-effect:hover::after,

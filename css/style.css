@@ -553,6 +553,7 @@ nav:before {
 }
 
 .features-section-2-col-1 {
+    background-size: cover;
     background-image: url(../img/hero.jpg);
     background-position: center;
     height: 500px;

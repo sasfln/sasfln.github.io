@@ -34,10 +34,8 @@
 
 .grid figure,
 .grid .placeholder {
-    /*    width: 340px;
-    height: 300px; */
-    width: 250px;
-    height: 220px;
+    width: 340px;
+    height: 300px;
 }
 
 .grid figure {

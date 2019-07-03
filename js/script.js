@@ -155,17 +155,16 @@ $(function() {
         message.text("Pronto! Sua mensagem foi enviada corretamente");
         setTimeout(function() {
             message.fadeOut();
-        }, 2000);
+        }, 5000);
         form.find('input:not([type="submit"]), textarea').val('');
     }
     // fail function
     function fail_func(data) {
         message.fadeIn().removeClass('alert-success').addClass('alert-success');
-        message.text("Epa! Aconteceu o seguinte erro: "
-            data.responseText);
+        message.text("Epa! Aconteceu o seguinte erro: " + data.responseText);
         setTimeout(function() {
             message.fadeOut();
-        }, 2000);
+        }, 5000);
     }
 
     form.submit(function(e) {

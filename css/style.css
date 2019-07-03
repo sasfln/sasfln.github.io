@@ -522,7 +522,7 @@ nav:before {
     content: '';
     width: 60px;
     height: 2px;
-    background: #2AAFC0;
+    background: #00004b;
     position: absolute;
     bottom: 0;
     left: calc(50% - 30px);
@@ -621,11 +621,12 @@ nav:before {
     color: #999;
     background: transparent;
     transition: all ease .5s;
-    border: 1px solid rgba(31, 181, 172, .9);
+    border: 1px solid rgba(0, 0, 75, 0.9);
 }
 
 .folded-corner:hover {
-    background-color: rgba(31, 181, 172, .9);
+    border: 0px;
+    background-color: rgba(0, 0, 75, .9);
 }
 
 
@@ -640,7 +641,7 @@ nav:before {
     right: 0;
     border-style: solid;
     border-width: 0 0px 0px 0;
-    border-color: #ddd #000;
+    border-color: #ddd #fff;
     transition: all ease .3s;
 }
 
@@ -652,7 +653,7 @@ nav:before {
 .folded-corner:hover:before {
     background-color: #D00003;
     border-width: 0 50px 50px 0;
-    border-color: #eee #000;
+    border-color: #eee #fff;
 }
 
 .service_tab_1 {
@@ -665,7 +666,7 @@ nav:before {
 }
 
 .fa-icon-image {
-    color: rgba(31, 181, 172, .9);
+    color: rgba(0, 0, 75, .9);
     display: inline-block;
     font-style: normal;
     font-variant: normal;

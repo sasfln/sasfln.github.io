@@ -36,7 +36,7 @@
 .grid .placeholder {
     background-size: cover;
     width: 340px;
-    height: 300px;
+    height: 240px;
     -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
     box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
 }

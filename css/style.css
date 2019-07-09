@@ -94,7 +94,7 @@ a:hover {
 .hover-effect::before,
 .hover-effect::after {
     content: "";
-    background: #fff;
+    background: #323232;
     height: 0;
     width: 0;
     z-index: 1;
@@ -107,7 +107,7 @@ a:hover {
 .hover-effect::before,
 .hover-effect::after {
     content: "";
-    background: #fff;
+    background: #323232;
     height: 0;
     width: 0;
     z-index: 1;
@@ -162,7 +162,7 @@ table {
 -----------------------------------------------------------------*/
 
 .button-style {
-    background-color: #00004b;
+    background-color: #323232;
     border: none;
     color: #ffffff;
     cursor: pointer;
@@ -213,7 +213,7 @@ table {
 
 .button-style:hover,
 .button-style.hover {
-    background-color: #000064;
+    background-color: #323232;
     color: #ffffff;
 }
 
@@ -289,13 +289,13 @@ a.navbar-brand {
 
 .navbar-brand {
     font-size: 20px;
-    color: #fff !important;
+    color: #fff;
     font-weight: bold;
 }
 
 .navbar-default {
     background-color: transparent;
-    border-color: #e7e7e7;
+    border-color: #101010;
     padding: .7px;
 }
 
@@ -318,13 +318,13 @@ a.navbar-brand {
 }
 
 .activate-menu {
-    background-image: linear-gradient(-140deg, #00004b 25%, #000064 75%);
+    background-color: #323232;
     -webkit-box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.3);
     box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.3);
 }
 
 a.navbar-brand {
-    color: #fff !important;
+    color: #fff;
 }
 
 .navbar-nav li {
@@ -352,7 +352,7 @@ nav:before {
     transition-delay: 0.1s;
     -webkit-box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.05);
-    background-color: #ffffff;
+    background-color: #323232;
 }
 
 .navbar--scrolled:before {
@@ -378,10 +378,10 @@ nav:before {
         text-align: center;
     }
     nav ul li:hover {
-        background-color: #fff;
+        background-color: #323232;
     }
     .navbar-light .navbar-nav .nav-link:hover {
-        color: #000;
+        color: #fff;
     }
 }
 
@@ -396,7 +396,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 .feature-box {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(16, 16, 16, 0.8);
     font-size: 1rem;
     padding: 2.5rem;
     text-align: center;
@@ -451,7 +451,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #showcase {
-    height: 98vh;
+    height: 75vh;
     background-image: linear-gradient(to right bottom, rgba(0, 0, 75, 0.8), rgba(0, 0, 100, 0.8)), url(../img/showcasebg.jpg);
     background-size: cover;
     background-position: center;
@@ -515,7 +515,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #features {
-    background: #fff;
+    background: #101010;
     padding-top: 70px;
     margin-bottom: 80px;
 }
@@ -524,7 +524,7 @@ nav:before {
     content: '';
     width: 60px;
     height: 2px;
-    background: #00004b;
+    background: #101010;
     position: absolute;
     bottom: 0;
     left: calc(50% - 30px);
@@ -562,14 +562,14 @@ nav:before {
 }
 
 .features-section-2-col-2 {
-    background-color: #f7f7f7;
+    background-color: #101010;
     height: 500px;
     padding: 30px;
 }
 
 .features-section-2-col-2__content {
     width: 100%;
-    background-color: #ffffff;
+    background-color: #323232;
     padding: 20px;
     margin: auto;
     height: 100%;
@@ -596,7 +596,7 @@ nav:before {
 .services {
     padding-top: 100px;
     margin-bottom: 1.5rem;
-    background: #fff;
+    background: #101010;
     padding-top: 6rem;
     margin-bottom: 2rem;
 }
@@ -624,12 +624,12 @@ nav:before {
     color: #999;
     background: transparent;
     transition: all ease .5s;
-    border: 1px solid rgba(0, 0, 75, 0.9);
+    border: 1px solid rgba(50, 50, 50, 0.9);
 }
 
 .folded-corner:hover {
     border: 0px;
-    background-color: rgba(0, 0, 75, .9);
+    background-color: rgba(50, 50, 50, .9);
 }
 
 
@@ -1015,7 +1015,7 @@ div#teams {
 }
 
 .no-touch .flex-direction-nav li a:hover {
-    background-color: #323234;
+    background-color: #323232;
 }
 
 .flex-direction-nav li a::before,
@@ -1568,7 +1568,7 @@ iframe {
 
 footer {
     padding: 80px 0;
-    background-image: linear-gradient(-140deg, #00004b 25%, #000064 775%);
+    background-color: #323232;
     -webkit-clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
     clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
 }

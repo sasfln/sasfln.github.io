@@ -275,7 +275,7 @@ nav a {
 }
 
 .navbar-default .navbar-nav>li>a:active {
-    color: #0dd;
+    color: #ffaf00;
 }
 
 a.navbar-brand {
@@ -314,7 +314,7 @@ a.navbar-brand {
 }
 
 .navbar-default .navbar-nav>li>a:active {
-    color: #0dd;
+    color: #ffaf00;
 }
 
 .activate-menu {
@@ -432,12 +432,12 @@ nav:before {
 #testimonial p {
     font-size: 32px;
     font-family: 'Josefin Sans';
-    color: #000;
+    color: #eee;
 }
 
 #testimonial p.customer {
     font-size: 20px;
-    color: #666;
+    color: #ddd;
 }
 
 
@@ -452,7 +452,7 @@ nav:before {
 
 #showcase {
     height: 75vh;
-    background-image: linear-gradient(to right bottom, rgba(0, 0, 75, 0.8), rgba(0, 0, 100, 0.8)), url(../img/showcasebg.jpg);
+    background-image: linear-gradient(to right bottom, rgba(255, 150, 0, 0.8), rgba(255, 175, 0, 0.8)), url(../img/showcasebg.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 5.6ems;
@@ -644,7 +644,7 @@ nav:before {
     right: 0;
     border-style: solid;
     border-width: 0 0px 0px 0;
-    border-color: #ddd #fff;
+    border-color: #ddd #101010;
     transition: all ease .3s;
 }
 
@@ -656,7 +656,7 @@ nav:before {
 .folded-corner:hover:before {
     background-color: #D00003;
     border-width: 0 50px 50px 0;
-    border-color: #eee #fff;
+    border-color: #eee #101010;
 }
 
 .service_tab_1 {
@@ -762,7 +762,7 @@ div#teams {
     max-width: 310px;
     width: 100%;
     background-color: #ffffff;
-    color: #2B2B2B;
+    color: #eeeeee;
     text-align: center;
     font-size: 16px;
     border-radius: 5px;
@@ -805,19 +805,19 @@ div#teams {
     font-weight: 400;
     margin: 0;
     text-transform: uppercase;
-    color: #888;
+    color: #eee;
     letter-spacing: 1px;
 }
 
 .teams-item .icons i {
-    color: #999;
+    color: #eee;
     display: inline-block;
     margin-right: 5px;
     font-size: 1.5em;
 }
 
 .teams-item .icons i:hover {
-    color: #555;
+    color: #eee;
 }
 
 .teams-item .icons i a {

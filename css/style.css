@@ -596,14 +596,14 @@ nav:before {
 .services {
     padding-top: 100px;
     margin-bottom: 1.5rem;
-    background: #101010;
+    background: #323232;
     padding-top: 6rem;
     margin-bottom: 2rem;
 }
 
 .folded-corner:hover .text {
     visibility: visible;
-    color: #ffffff;
+    color: #050505;
     ;
 }
 
@@ -621,15 +621,15 @@ nav:before {
     position: relative;
     font-size: 90%;
     text-decoration: none;
-    color: #999;
+    color: #eee;
     background: transparent;
     transition: all ease .5s;
-    border: 1px solid rgba(50, 50, 50, 0.9);
+    border: 1px solid #050505;
 }
 
 .folded-corner:hover {
     border: 0px;
-    background-color: rgba(50, 50, 50, .9);
+    background-color: #eee;
 }
 
 
@@ -644,7 +644,7 @@ nav:before {
     right: 0;
     border-style: solid;
     border-width: 0 0px 0px 0;
-    border-color: #ddd #101010;
+    border-color: #fff #101010;
     transition: all ease .3s;
 }
 
@@ -664,12 +664,12 @@ nav:before {
 }
 
 .service_tab_1:hover .fa-icon-image {
-    color: #ffffff;
+    color: #000064;
     transform: rotate(360deg) scale(1.2);
 }
 
 .fa-icon-image {
-    color: rgba(0, 0, 75, .9);
+    color: rgba(255, 150, 0, 0.9);
     display: inline-block;
     font-style: normal;
     font-variant: normal;
@@ -766,8 +766,8 @@ div#teams {
     text-align: center;
     font-size: 16px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
     overflow: hidden;
 }
 

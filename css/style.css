@@ -660,7 +660,7 @@ nav:before {
 }
 
 .service_tab_1 {
-    background-color: #323232;
+    background-color: #101010;
 }
 
 .service_tab_1:hover .fa-icon-image {
@@ -710,7 +710,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #teams {
-    background-color: #27a599;
+    background-color: #101010;
     width: 100%;
     position: relative;
     color: #ffffff;
@@ -729,7 +729,7 @@ div#teams {
     font-size: 1.25rem;
     display: block;
     text-transform: capitalize;
-    color: #00bcd4;
+    color: #eee;
     text-align: center;
 }
 
@@ -743,7 +743,7 @@ div#teams {
 }
 
 .teams-item {
-    background-color: #ffffff;
+    background-color: #fff;
     height: 400px;
 }
 
@@ -761,8 +761,8 @@ div#teams {
     min-width: 250px;
     max-width: 310px;
     width: 100%;
-    background-color: #ffffff;
-    color: #eeeeee;
+    background-color: #fff;
+    color: #eee;
     text-align: center;
     font-size: 16px;
     border-radius: 5px;
@@ -842,7 +842,7 @@ div#teams {
 -----------------------------------------------------------------*/
 
 .testimonials {
-    background-color: #2c7dbc;
+    background-color: #101010;
     margin-top: -40px;
     padding-top: 10px;
     padding-bottom: 30px;
@@ -874,7 +874,7 @@ div#teams {
     padding-top: 8px;
     margin-left: -25px;
     font-family: "Georgia", serif;
-    color: #ffffff;
+    color: #fff;
     font-size: 70px;
     font-size: 4.375rem;
     text-align: center;
@@ -897,7 +897,7 @@ div#teams {
 }
 
 .cd-testimonials {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 
@@ -1015,7 +1015,7 @@ div#teams {
 }
 
 .no-touch .flex-direction-nav li a:hover {
-    background-color: #323232;
+    background-color: #101010;
 }
 
 .flex-direction-nav li a::before,
@@ -1071,7 +1071,7 @@ div#teams {
 @media only screen and (min-width: 1170px) {
     .flex-direction-nav li a::before,
     .flex-direction-nav li a::after {
-        background-color: #5e5e63;
+        background-color: #101010;
         -webkit-transition: background-color 0.2s;
         -moz-transition: background-color 0.2s;
         transition: background-color 0.2s;
@@ -1092,7 +1092,7 @@ div#teams {
     line-height: 50px;
     text-align: center;
     text-transform: uppercase;
-    color: #f7f7fe;
+    color: #eee;
     font-weight: 700;
     font-size: 12px;
     font-size: 0.75rem;
@@ -1102,7 +1102,7 @@ div#teams {
 }
 
 .no-touch .cd-see-all:hover {
-    color: #79b6e4;
+    color: #eee;
 }
 
 .cd-testimonials-all {
@@ -1111,7 +1111,7 @@ div#teams {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #fff;
     z-index: 2;
     visibility: hidden;
     opacity: 0;
@@ -1159,8 +1159,8 @@ div#teams {
 
 .cd-testimonials-all p {
     position: relative;
-    background: #79b6e4;
-    color: #ffffff;
+    background: #101010;
+    color: #fff;
     padding: 2em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1178,7 +1178,7 @@ div#teams {
     height: 0;
     width: 0;
     border: 8px solid transparent;
-    border-top-color: #79b6e4;
+    border-top-color: #ff9600;
 }
 
 .cd-testimonials-all .cd-author {
@@ -1251,7 +1251,7 @@ div#teams {
     height: 24px;
     top: 8px;
     left: 19px;
-    background-color: #39393c;
+    background-color: #101010;
 }
 
 .close-btn::before {
@@ -1281,7 +1281,7 @@ div#teams {
 -----------------------------------------------------------------*/
 
 .blog {
-    background-color: #6dbdc3;
+    background-color: #101010;
     padding-top: 6rem;
     padding-bottom: 3rem;
     margin-top: -4rem;
@@ -1296,8 +1296,8 @@ figure.blog-item {
     min-width: 220px;
     max-width: 310px;
     width: 100%;
-    background: #1a1a1a;
-    color: #ffffff;
+    background: #101010;
+    color: #fff;
     text-align: left;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
@@ -1360,10 +1360,10 @@ figure.blog-item:after {
 }
 
 figure.blog-item:before {
-    background-color: #000064;
+    background-color: #101010;
     -webkit-transform: skew(-45deg) translateX(-150%);
     transform: skew(-45deg) translateX(-150%);
-    border-right: 1px solid #000064;
+    border-right: 1px solid #101010;
 }
 
 figure.blog-item:after {
@@ -1375,8 +1375,8 @@ figure.blog-item:after {
 
 figure.blog-item figcaption {
     padding: 25px;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #101010;
+    color: #eee;
     position: relative;
     font-size: 0.9em;
 }
@@ -1394,16 +1394,16 @@ figure.blog-item figcaption:before {
     content: '';
     background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 100%);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 100%);
-    background-color: #000064;
+    background-color: #101010;
     -webkit-transform: skew(-45deg) translateX(50%);
     transform: skew(-45deg) translateX(50%);
-    border-right: 1px solid #00004b;
+    border-right: 1px solid #101010;
 }
 
 figure.blog-item .read-more {
     display: inline-block;
     width: auto;
-    border: 2px solid #00004b;
+    border: 2px solid #101010;
     padding: 0.4em 0.6em;
     color: #000064;
     text-decoration: none;
@@ -1413,8 +1413,8 @@ figure.blog-item .read-more {
 }
 
 figure.blog-item .read-more:hover {
-    background-color: #000064;
-    color: #ffffff;
+    background-color: #101010;
+    color: #fff;
 }
 
 figure.blog-item .date {

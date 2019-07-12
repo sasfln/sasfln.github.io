@@ -1,7 +1,7 @@
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
+ * Copyright 2011-2018 Twitter, Inc. 
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
@@ -75,7 +75,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: #eee;
     text-align: left;
     background-color: #101010
 }
@@ -177,14 +177,14 @@ sup {
 }
 
 a {
-    color: #007bff;
+    color: #eee;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
-    color: #0056b3;
+    color: #eee;
     text-decoration: underline
 }
 
@@ -238,7 +238,7 @@ table {
 caption {
     padding-top: .75rem;
     padding-bottom: .75rem;
-    color: #6c757d;
+    color: #ddd;
     text-align: left;
     caption-side: bottom
 }
@@ -5612,14 +5612,14 @@ tbody.collapse.show {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 1;
-    color: #000;
+    color: #fff;
     text-shadow: 0 1px 0 #fff;
     opacity: .5
 }
 
 .close:focus,
 .close:hover {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     opacity: .75
 }
@@ -5711,7 +5711,7 @@ button.close {
     bottom: 0;
     left: 0;
     z-index: 1040;
-    background-color: #000
+    background-color: #fff
 }
 
 .modal-backdrop.fade {
@@ -5861,7 +5861,7 @@ button.close {
 .bs-tooltip-top .arrow::before {
     top: 0;
     border-width: .4rem .4rem 0;
-    border-top-color: #000
+    border-top-color: #fff
 }
 
 .bs-tooltip-auto[x-placement^=right],
@@ -5880,7 +5880,7 @@ button.close {
 .bs-tooltip-right .arrow::before {
     right: 0;
     border-width: .4rem .4rem .4rem 0;
-    border-right-color: #000
+    border-right-color: #fff
 }
 
 .bs-tooltip-auto[x-placement^=bottom],
@@ -5897,7 +5897,7 @@ button.close {
 .bs-tooltip-bottom .arrow::before {
     bottom: 0;
     border-width: 0 .4rem .4rem;
-    border-bottom-color: #000
+    border-bottom-color: #fff
 }
 
 .bs-tooltip-auto[x-placement^=left],
@@ -5916,7 +5916,7 @@ button.close {
 .bs-tooltip-left .arrow::before {
     left: 0;
     border-width: .4rem 0 .4rem .4rem;
-    border-left-color: #000
+    border-left-color: #fff
 }
 
 .tooltip-inner {
@@ -5924,7 +5924,7 @@ button.close {
     padding: .25rem .5rem;
     color: #fff;
     text-align: center;
-    background-color: #000;
+    background-color: #fff;
     border-radius: .25rem
 }
 
@@ -9255,7 +9255,7 @@ a.text-dark:hover {
         display: none
     }
     .badge {
-        border: 1px solid #000
+        border: 1px solid #fff
     }
     .table {
         border-collapse: collapse!important

@@ -275,7 +275,7 @@ nav a {
 }
 
 .navbar-default .navbar-nav>li>a:active {
-    color: #ffaf00;
+    color: #ff9600;
 }
 
 a.navbar-brand {
@@ -314,13 +314,13 @@ a.navbar-brand {
 }
 
 .navbar-default .navbar-nav>li>a:active {
-    color: #ffaf00;
+    color: #ff9600;
 }
 
 .activate-menu {
-    background-color: #323232;
-    -webkit-box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.3);
-    box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.3);
+    background-color: #101010;
+    -webkit-box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.25);
+    box-shadow: -3px 13px 24px -1px rgba(0, 0, 0, 0.25);
 }
 
 a.navbar-brand {
@@ -350,9 +350,9 @@ nav:before {
     transition: all 1s cubic-bezier(0.4, 0.25, 0, 1);
     -webkit-transition-delay: 0.1s;
     transition-delay: 0.1s;
-    -webkit-box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.05);
-    background-color: #323232;
+    -webkit-box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.25);
+    background-color: #101010;
 }
 
 .navbar--scrolled:before {
@@ -378,7 +378,7 @@ nav:before {
         text-align: center;
     }
     nav ul li:hover {
-        background-color: #323232;
+        background-color: #101010;
     }
     .navbar-light .navbar-nav .nav-link:hover {
         color: #fff;

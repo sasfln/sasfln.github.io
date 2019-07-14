@@ -184,7 +184,7 @@ table {
 
 .button-style:before,
 .button-style:after {
-    border-color: transparent;
+    border-color: #ddd;
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
     border-style: solid;
@@ -295,7 +295,7 @@ a.navbar-brand {
 
 .navbar-default {
     background-color: transparent;
-    border-color: #101010;
+    border-color: #ddd;
     padding: .7px;
 }
 
@@ -624,12 +624,12 @@ nav:before {
     color: #ddd;
     background: transparent;
     transition: all ease .5s;
-    border: 1px solid #101010;
+    border: 1px solid #ddd;
 }
 
 .folded-corner:hover {
     border: 0px;
-    background-color: #323232;
+    background-color: #eee;
 }
 
 
@@ -644,7 +644,7 @@ nav:before {
     right: 0;
     border-style: solid;
     border-width: 0 0px 0px 0;
-    border-color: #fff #101010;
+    border-color: #ddd #101010;
     transition: all ease .3s;
 }
 
@@ -656,7 +656,7 @@ nav:before {
 .folded-corner:hover:before {
     background-color: #101010;
     border-width: 0 50px 50px 0;
-    border-color: #eee #101010;
+    border-color: #ddd #101010;
 }
 
 .service_tab_1 {
@@ -1177,8 +1177,8 @@ div#teams {
     left: 2em;
     height: 0;
     width: 0;
-    border: 8px solid transparent;
-    border-top-color: #ff9600;
+    border: 8px solid #ddd;
+    border-top-color: #eee;
 }
 
 .cd-testimonials-all .cd-author {
@@ -1363,14 +1363,14 @@ figure.blog-item:before {
     background-color: #101010;
     -webkit-transform: skew(-45deg) translateX(-150%);
     transform: skew(-45deg) translateX(-150%);
-    border-right: 1px solid #101010;
+    border-right: 1px solid #ddd;
 }
 
 figure.blog-item:after {
     background-color: #101010;
     -webkit-transform: skew(-45deg) translateX(-175%);
     transform: skew(-45deg) translateX(-175%);
-    border-right: 1px solid #ff9600;
+    border-right: 1px solid #ddd;
 }
 
 figure.blog-item figcaption {
@@ -1397,13 +1397,13 @@ figure.blog-item figcaption:before {
     background-color: #101010;
     -webkit-transform: skew(-45deg) translateX(50%);
     transform: skew(-45deg) translateX(50%);
-    border-right: 1px solid #101010;
+    border-right: 1px solid #ddd;
 }
 
 figure.blog-item .read-more {
     display: inline-block;
     width: auto;
-    border: 2px solid #101010;
+    border: 2px solid #ddd;
     padding: 0.4em 0.6em;
     color: #000064;
     text-decoration: none;

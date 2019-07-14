@@ -160,7 +160,7 @@
     overflow: hidden;
     height: 0;
     opacity: 0;
-    background: #fff;
+    background: #101010;
 }
 
 .content>div.show {

@@ -401,7 +401,7 @@ nav:before {
     padding: 2.5rem;
     text-align: center;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
     transition: transform .3s;
 }
 
@@ -569,13 +569,13 @@ nav:before {
 
 .features-section-2-col-2__content {
     width: 100%;
-    background-color: #323232;
+    background-color: #101010;
     padding: 20px;
     margin: auto;
     height: 100%;
     padding: 100px 10%;
-    -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
     text-align: center;
 }
 
@@ -596,14 +596,14 @@ nav:before {
 .services {
     padding-top: 100px;
     margin-bottom: 1.5rem;
-    background: #323232;
+    background-color: #101010;
     padding-top: 6rem;
     margin-bottom: 2rem;
 }
 
 .folded-corner:hover .text {
     visibility: visible;
-    color: #050505;
+    color: #ddd;
     ;
 }
 
@@ -621,15 +621,15 @@ nav:before {
     position: relative;
     font-size: 90%;
     text-decoration: none;
-    color: #eee;
+    color: #ddd;
     background: transparent;
     transition: all ease .5s;
-    border: 1px solid #050505;
+    border: 1px solid #101010;
 }
 
 .folded-corner:hover {
     border: 0px;
-    background-color: #eee;
+    background-color: #323232;
 }
 
 
@@ -654,7 +654,7 @@ nav:before {
 */
 
 .folded-corner:hover:before {
-    background-color: #D00003;
+    background-color: #101010;
     border-width: 0 50px 50px 0;
     border-color: #eee #101010;
 }
@@ -743,7 +743,7 @@ div#teams {
 }
 
 .teams-item {
-    background-color: #fff;
+    background-color: #101010;
     height: 400px;
 }
 
@@ -761,7 +761,7 @@ div#teams {
     min-width: 250px;
     max-width: 310px;
     width: 100%;
-    background-color: #fff;
+    background-color: #101010;
     color: #eee;
     text-align: center;
     font-size: 16px;
@@ -951,7 +951,7 @@ div#teams {
     height: 32px;
     border-radius: 50%;
     margin-right: 5px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
 }
 
 .cd-author .cd-author-info {
@@ -1027,7 +1027,7 @@ div#teams {
     top: 50%;
     width: 2px;
     height: 13px;
-    background-color: #ffffff;
+    background-color: #101010;
 }
 
 .flex-direction-nav li a::before {
@@ -1078,7 +1078,7 @@ div#teams {
     }
     .flex-direction-nav li a:hover::before,
     .flex-direction-nav li a:hover::after {
-        background-color: #ffffff;
+        background-color: #101010;
     }
 }
 
@@ -1111,7 +1111,7 @@ div#teams {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-color: #101010;
     z-index: 2;
     visibility: hidden;
     opacity: 0;
@@ -1367,7 +1367,7 @@ figure.blog-item:before {
 }
 
 figure.blog-item:after {
-    background-color: #ffaf00;
+    background-color: #101010;
     -webkit-transform: skew(-45deg) translateX(-175%);
     transform: skew(-45deg) translateX(-175%);
     border-right: 1px solid #ff9600;
@@ -1568,9 +1568,11 @@ iframe {
 
 footer {
     padding: 80px 0;
-    background-color: #323232;
+    background-color: #101010;
     -webkit-clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
     clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
+    -webkit-box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 50px 1px rgba(0, 0, 0, 0.25);
 }
 
 .footer__box {
@@ -1621,7 +1623,7 @@ footer p {
 }
 
 .pace .pace-progress {
-    background: #fff;
+    background: #101010;
     position: fixed;
     z-index: 2000;
     top: 0;

@@ -98,7 +98,7 @@ jQuery(document).ready(function($) {
             type: "POST",
             url: "https://usebasin.com/f/a79dd3893426.json",
             data: str,
-            success: function(data) {
+            success: function(msg) {
                 // alert(msg);
                 if (success == 'true') {
                     $("#sendmessage").addClass("show");

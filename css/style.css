@@ -163,7 +163,7 @@ table {
 
 .button-style {
     background-color: #101010;
-    border: #ddd;
+    border-color: #ddd;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
@@ -213,8 +213,8 @@ table {
 
 .button-style:hover,
 .button-style.hover {
-    background-color: #101010;
-    color: #ffffff;
+    background-color: #ff9600;
+    color: #000064;
 }
 
 .button-style:hover:before,
@@ -603,7 +603,7 @@ nav:before {
 
 .folded-corner:hover .text {
     visibility: visible;
-    color: #ddd;
+    color: #000000;
     ;
 }
 

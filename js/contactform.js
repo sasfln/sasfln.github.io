@@ -98,9 +98,9 @@ jQuery(document).ready(function($) {
             type: "POST",
             url: "https://usebasin.com/f/a79dd3893426.json",
             data: str,
-            success: function(msg) {
+            success: function(data) {
                 // alert(msg);
-                if (success = 'true') {
+                if (success == 'true') {
                     $("#sendmessage").addClass("show");
                     $("#errormessage").removeClass("show");
                     $('.contactForm').find("input, textarea").val("");

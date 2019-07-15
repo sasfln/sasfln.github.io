@@ -98,7 +98,8 @@ jQuery(document).ready(function($) {
             type: "POST",
             url: "https://usebasin.com/f/a79dd3893426.json",
             data: str,
-            success: function(msg) {
+            success: function(msg)
+            dataType: "json" {
                 // alert(msg);
                 if (success == 'true') {
                     $("#sendmessage").addClass("show");
@@ -111,7 +112,7 @@ jQuery(document).ready(function($) {
                 }
 
             }
-            dataType: "json"
+
         });
         return false;
     });

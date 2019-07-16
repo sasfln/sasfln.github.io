@@ -90,7 +90,7 @@ jQuery(document).ready(function($) {
         });
         if (ferror) return false;
         else var str = $(this).serialize();
-        var parsed = JSON.parse(str);
+        var parsed = JSON.stringify(str);
         var action = $(this).attr('action');
         if (!action) {
             action = '/js/contactform.js';

@@ -93,11 +93,11 @@ jQuery(document).ready(function($) {
         var parsed = JSON.parse(str);
         var action = $(this).attr('action');
         if (!action) {
-            action = 'https://usebasin.com/f/a79dd3893426.json';
+            action = '/js/contactform.js';
         }
         $.ajax({
             type: "POST",
-            url: action,
+            url: 'https: //usebasin.com/f/a79dd3893426.json',
             data: parsed,
             success: function(msg) {
                 // alert(msg);

@@ -95,9 +95,10 @@ jQuery(document).ready(function($) {
                     action = '/js/contactform.js';
                 }
                 $.ajax({
-                    type: "POST",
                     url: "https://usebasin.com/f/a79dd3893426.json",
-                    data: str,
+                    method: "POST",
+                    data: "str",
+                    dataType: "json",
                     success: function(data) {
                         // alert(msg);
                         if (success = 'true') {

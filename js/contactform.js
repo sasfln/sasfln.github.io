@@ -96,7 +96,7 @@ jQuery(document).ready(function($) {
                 }
                 $.ajax({
                     type: "POST",
-                    url: "https://usebasin.com/f/a79dd3893426",
+                    url: "https://usebasin.com/f/a79dd3893426.json",
                     data: str,
                     success: function(data) {
                         // alert(msg);

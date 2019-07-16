@@ -2,7 +2,7 @@ jQuery(document).ready(function($) {
     "use strict";
 
     //Contact
-    $('form.contactForm').submit(function() {
+    $('form.contact__form').submit(function() {
         var f = $(this).find('.form-group'),
             ferror = false,
             emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
             data: parsed,
             success: function(msg) {
                 // alert(msg);
-                if (msg == 'true') {
+                if (success == 'true') {
                     $("#sendmessage").addClass("show");
                     $("#errormessage").removeClass("show");
                     $('.contactForm').find("input, textarea").val("");

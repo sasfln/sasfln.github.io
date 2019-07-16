@@ -1,33 +1,119 @@
-/**
- * A handler function to prevent default submission and run our custom script.
- * @param  {Event} event  the submit event triggered by the user
- * @return {void}
- */
-const formToJSON = elements => [].reduce.call(elements, (data, element) => {
+jQuery(document).ready(function($) {
+    "use strict";
 
-    // Make sure the element has the required properties.
-    if (isValidElement(element)) {
-        data[element.name] = element.value;
-    }
+    //Contact
+    $('form.contactForm').submit(function() {
+        var f = $(this).find('.form-group'),
+            ferror = false,
+            emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
-    return data;
-}, {});
+        f.children('input').each(function() { // run all inputs
 
-const handleFormSubmit = event => {
+            var i = $(this); // current input
+            var rule = i.attr('data-rule');
 
-    // Stop the form from submitting since we’re handling that with AJAX.
-    event.preventDefault();
+            if (rule !== undefined) {
+                var ierror = false; // error flag for current input
+                var pos = rule.indexOf(':', 0);
+                if (pos >= 0) {
+                    var exp = rule.substr(pos + 1, rule.length);
+                    rule = rule.substr(0, pos);
+                } else {
+                    rule = rule.substr(pos + 1, rule.length);
+                }
 
-    // TODO: Call our function to get the form data.
-    const data = formToJSON(form.elements);
+                switch (rule) {
+                    case 'required':
+                        if (i.val() === '') {
+                            ferror = ierror = true;
+                        }
+                        break;
 
-    // Demo only: print the form data onscreen as a formatted JSON object.
-    const dataContainer = document.getElementsByClassName('results__display')[0];
+                    case 'minlen':
+                        if (i.val().length < parseInt(exp)) {
+                            ferror = ierror = true;
+                        }
+                        break;
 
-    // Use `JSON.stringify()` to make the output valid, human-readable JSON.
-    dataContainer.textContent = JSON.stringify(data, null, "  ");
+                    case 'email':
+                        if (!emailExp.test(i.val())) {
+                            ferror = ierror = true;
+                        }
+                        break;
 
-    // ...this is where we’d actually do something with the form data...
-};
-const form = document.getElementsByClassName('contact__form')[0];
-form.addEventListener('submit', handleFormSubmit);
+                    case 'checked':
+                        if (!i.is(':checked')) {
+                            ferror = ierror = true;
+                        }
+                        break;
+
+                    case 'regexp':
+                        exp = new RegExp(exp);
+                        if (!exp.test(i.val())) {
+                            ferror = ierror = true;
+                        }
+                        break;
+                }
+                i.next('.validation').html((ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
+            }
+        });
+        f.children('textarea').each(function() { // run all inputs
+
+            var i = $(this); // current input
+            var rule = i.attr('data-rule');
+
+            if (rule !== undefined) {
+                var ierror = false; // error flag for current input
+                var pos = rule.indexOf(':', 0);
+                if (pos >= 0) {
+                    var exp = rule.substr(pos + 1, rule.length);
+                    rule = rule.substr(0, pos);
+                } else {
+                    rule = rule.substr(pos + 1, rule.length);
+                }
+
+                switch (rule) {
+                    case 'required':
+                        if (i.val() === '') {
+                            ferror = ierror = true;
+                        }
+                        break;
+
+                    case 'minlen':
+                        if (i.val().length < parseInt(exp)) {
+                            ferror = ierror = true;
+                        }
+                        break;
+                }
+                i.next('.validation').html((ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '')).show('blind');
+            }
+        });
+        if (ferror) return false;
+        else var str = $(this).serialize();
+        var parsed = JSON.parse(str);
+        var action = $(this).attr('action');
+        if (!action) {
+            action = 'https://usebasin.com/f/a79dd3893426.json';
+        }
+        $.ajax({
+            type: "POST",
+            url: action,
+            data: parsed,
+            success: function(msg) {
+                // alert(msg);
+                if (msg == 'OK') {
+                    $("#sendmessage").addClass("show");
+                    $("#errormessage").removeClass("show");
+                    $('.contactForm').find("input, textarea").val("");
+                } else {
+                    $("#sendmessage").removeClass("show");
+                    $("#errormessage").addClass("show");
+                    $('#errormessage').html(msg);
+                }
+
+            }
+        });
+        return false;
+    });
+
+});

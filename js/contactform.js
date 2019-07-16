@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
             data: parsed,
             success: function(msg) {
                 // alert(msg);
-                if (msg == 'OK') {
+                if (msg == 'true') {
                     $("#sendmessage").addClass("show");
                     $("#errormessage").removeClass("show");
                     $('.contactForm').find("input, textarea").val("");

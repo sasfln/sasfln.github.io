@@ -164,6 +164,7 @@ table {
 .button-style {
     background-color: #101010;
     border-color: #ddd;
+    border-radius: .25rem;
     color: #ffffff;
     cursor: pointer;
     display: inline-block;
@@ -215,6 +216,7 @@ table {
 .button-style.hover {
     background-color: #ff9600;
     color: #000064;
+    border-color: #ff9600;
 }
 
 .button-style:hover:before,
